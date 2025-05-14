@@ -19,7 +19,7 @@ h1 {
 }
 
 .img1 {
-    width: 90%;
+    width: 80%;
     max-width: 1000px;
     height: auto;
     display: block;
@@ -42,7 +42,7 @@ h2 {
 }
 
 .content-1 {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     text-align: justify;
     font-size: 1.1em;
@@ -53,7 +53,7 @@ h2 {
 }
 
 .types1 {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -78,7 +78,7 @@ li {
 .tejas,
 .rafel,
 .mirage {
-    width: 100%;
+    width: 90%;
     max-width: 1000px;
     height: auto;
     border-radius: 15px;
@@ -112,7 +112,7 @@ li {
 }
 
 .operations-content-1 {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -125,7 +125,7 @@ li {
 }
 
 .tejas2 {
-    width: 100%;
+    width: 90%;
     max-width: 1000px;
     height: auto;
     border-radius: 15px;
