@@ -16,10 +16,25 @@ body {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-#header img {
-    height: 60px;
-    margin-right: 20px;
+.iaf-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 10px;
 }
+
+#header {
+  background-color: #f0f8ff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#header h1 {
+  font-size: 2rem;
+  color: #0d47a1;
+  font-weight: bold;
+}
+
 
 .heading h1 {
     font-size: 2.5em;
