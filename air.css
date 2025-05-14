@@ -72,7 +72,9 @@ body {
   width: 60px;
   height: 60px;
   object-fit: contain;
-  margin-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-content: center;
 }
 
 #header {
@@ -85,6 +87,8 @@ body {
   font-size: 2rem;
   color: #0d47a1;
   font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -100,7 +104,7 @@ body {
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
+    text-align: center;
 }
 
 .abt p {
@@ -118,6 +122,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
+    height: 500px;
 }
 
 .card-body {
@@ -125,9 +130,9 @@ body {
     border-radius: 12px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
     padding: 15px;
-    width: 220px;
     text-align: center;
     transition: transform 0.3s ease;
+    object-fit: cover;
 }
 
 .card-body:hover {
@@ -136,7 +141,7 @@ body {
 
 .card-img-top {
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
     border-radius: 12px 12px 0 0;
 }
