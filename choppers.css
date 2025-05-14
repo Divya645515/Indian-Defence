@@ -1,0 +1,179 @@
+#header {
+    background-color: #003366;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.iaf-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+#header {
+  background-color: #f0f8ff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#header h1 {
+  font-size: 2rem;
+  color: #0d47a1;
+  font-weight: bold;
+}
+
+
+.heading h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+body {
+    background-color: #e0f7fa;
+    background-image: url('pics/helicopter-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    color: #0d47a1;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px #b3e5fc;
+}
+
+.img1 {
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+.img1:hover {
+    transform: scale(1.02);
+}
+h2 {
+    color: #004d40;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.content-1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 1.1em;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.types1 {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.types2 {
+    color: #6a1b9a;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #1a237e;
+}
+
+.Rudra,
+.Boeing,
+.Prachand,
+.Dhruv,
+.Chetak,
+.Cheetah {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.Boeing:hover,
+.Rudra:hover,
+.Prachand:hover,
+.Dhruv:hover,
+.Chetak:hover,
+.Cheetah:hover  {
+    transform: scale(1.01);
+}
+
+.para1,
+.para2,
+.para3 {
+    font-size: 1em;
+    text-align: justify;
+    padding: 10px;
+    color: #333;
+    line-height: 1.6;
+}
+.operations-content {
+    color: #00695c;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.operations-content-1 {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+}
+
+.tejas2 {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.tejas2:hover {
+    transform: scale(1.01);
+}
