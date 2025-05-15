@@ -81,7 +81,7 @@ h2{
   /* background-color: rgb(255, 255, 255); */
 }
 .member{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     display: flex;
     justify-content: center;
 }
