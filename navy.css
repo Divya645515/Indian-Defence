@@ -1,0 +1,134 @@
+.nav-link:hover {
+  color: #c71010 !important;
+  background-color: #f0f0f0;
+}
+
+.nav-link {
+  color: #c00f0f !important;
+  font-size: 18px;
+}
+
+.nav-link.active {
+  color: rgb(156, 22, 22) !important;
+  background-color: #0d6efd !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #d1a4a4;
+}
+
+#indian-navy {
+  background:#d3d8dd;
+}
+
+#indian-navy h2 {
+  color:#010101;
+}
+
+#indian-navy p {
+  color: #101010;
+}
+
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.2rem;
+  }
+}
+.indian-navy-section {
+  background: linear-gradient(to right, #e0f7fa, #f1f8ff);
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #004d99;
+  font-weight: 600;
+}
+
+.navy-text {
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #1c1919;
+  text-align: justify;
+  background-color:rgba(213, 214, 224, 0.788);
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.naval-stats-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.naval-stats-container img {
+    max-width: 500%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+  body {
+      background: linear-gradient(to right, #001f3f, #003366);
+      color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    h1 {
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    }
+
+    .card-title {
+      color: #003366;
+      font-weight: 600;
+    }
+
+    .card-text {
+      color: #444;
+    }
+
+    .container {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
