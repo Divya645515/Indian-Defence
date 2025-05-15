@@ -94,8 +94,8 @@ body {
 }
 
 .nav-link {
-  color: #c00f0f !important;
   font-size: 18px;
+  
 }
 
 .nav-link.active {

@@ -6,18 +6,15 @@ background-image: url("indexImg/b.jpg");
 }
 .nav-link:hover {
   color: #c71010 !important;
-  background-color: #f0f0f0;
+  background-color: rgb(90, 100, 109);
 }
 
-.nav-link {
-  color: #c00f0f !important;
+.nav-link .nav-item {
+  color: #d73535 !important;
   font-size: 18px;
 }
 
-.nav-link.active {
-  color: rgb(156, 22, 22) !important;
-  background-color: #0d6efd !important;
-}
+
 h1{
     display: flex;
     justify-content: center;
