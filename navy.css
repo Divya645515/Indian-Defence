@@ -1,3 +1,10 @@
+body {
+  background-image: url("navy pic/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .nav-link {
   font-size: 18px;
   

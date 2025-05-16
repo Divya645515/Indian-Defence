@@ -1,7 +1,9 @@
 
-*{
+body{
     background: fixed;  
 background-image: url("indexImg/b.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 .nav-link:hover {
@@ -29,12 +31,14 @@ h1{
 }
 
 .a-content{
-    padding-left: 2%;
-    padding-right: 2%;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.5);
     color: rgb(19, 37, 53);
     padding-bottom: 0%;
+    
 }
 h2{
+  color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 1%;
     text-transform: uppercase;
@@ -44,9 +48,10 @@ h2{
 .content{
     margin-top: 0%;
     text-indent: 6%;
+     
      text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(241, 236, 179);
     font-weight: bolder;
     p{
         margin-bottom: 0%;
@@ -54,9 +59,10 @@ h2{
 
 .highlight{
     font-weight: bold;
+    text-transform: capitalize;
     /* background-color: rgb(139, 141, 51); */
     /* text-decoration: underline; */
-    color: antiquewhite;
+    color: rgb(51, 255, 10);
 }
 
 }
@@ -69,7 +75,7 @@ h2{
     font-weight: bolder;
     font-size: 40px;
     text-decoration: rgb(216, 191, 191);
-    color: #46301f;
+    color: #150c04;
     
 }
 
@@ -86,13 +92,14 @@ h2{
 
 .branch-body {
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(252, 247, 247, 0.1);
+  background-color: rgba(0, 0, 0, 0.7);
   transition: transform 0.2s;
   padding-bottom: 5%;
   /* background-color: rgb(255, 255, 255); */
 }
 .member{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     display: flex;
     justify-content: center;
 }
@@ -118,11 +125,10 @@ img {
 
 .branch-body h3 {
     /* background-color: white; */
-    color: #922d2d;
   margin-top: 10px;
   text-align:center;
   font-weight: bold;
-  color: #333;
+  color: #cfb8b8;
 }
 
 .branch-body p {
@@ -130,7 +136,7 @@ img {
     /* background-color: white; */
     padding-left: 10%;
     padding-right: 10%;
-  color: #250b0b;
+  color: #e1dbdb;
   text-align: justify;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
@@ -219,4 +225,3 @@ footer {
 .footer-contacts li {
   margin-bottom: 8px;
 }
-
