@@ -1,10 +1,14 @@
-.nav-link {
-  font-size: 18px;
-  
-}
 .nav-link:hover {
-  color: #fd990d !important;
-  background-color: #f0f0f0;
+  color: #c71010 !important;
+  background-color: rgb(90, 100, 109);
+}
+
+.nav-link .nav-item {
+  color: #d73535 !important;
+  font-size: 18px;
+}
+.d-flex{
+  background-color:rgb(35, 36, 37);
 }
 body {
     margin: 0;
