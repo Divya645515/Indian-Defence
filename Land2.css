@@ -1,0 +1,30 @@
+body{
+    background-image: url("backBunk.png");
+    background-size: cover;
+}
+.carousel-inner h1{
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-inner .about{
+    background-color: rgba(2, 2, 2, 0.5);
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.carousel-inner img{
+    height: 500px;
+    width:70%!important;
+    margin:auto;
+}
+.carousel-inner h3{
+    color: white;
+}
+.carousel-inner p{
+        color: white;
+        background-color: rgba(2, 2, 2, 0.5);
+}
