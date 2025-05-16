@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(45, 40, 40) ;
+}
+.mhead{
+display: flex;
+justify-content: center;
+background-color: rgb(48, 46, 46);
+text-transform: capitalize;
+color: rgb(103, 209, 10);
+}
+
+.about{
+    color: aliceblue;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.cb-1{
+width: 100%;
+}
+
+.content{
+    text-align: justify;
+    color: rgb(235, 235, 242);
+}
