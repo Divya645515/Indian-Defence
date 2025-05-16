@@ -1,0 +1,77 @@
+
+body{
+    background: fixed;
+    background-image: url("splPics/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    color: rgb(246, 238, 238);
+    text-transform: capitalize;
+}
+
+.about-body {
+    margin-left: 2%;
+    margin-right: 2%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+  background-color: rgba(1, 1, 1, 0.7);
+  transition: transform 0.2s;
+}
+.about-body h3 {
+    /* background-color: white; */
+  margin-top: 10px;
+  text-align:center;
+  font-weight: bold;
+  color: #cfb8b8;
+}
+
+.about-body p {
+    
+    text-indent: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+  color: #ffffff;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.about-body:hover {
+  transform: translateY(-10px);
+}
+
+  .carousel-item {
+      padding: 30px;
+        transition: none;
+    }
+    .carousel-fade .carousel-item.active {
+  transition-duration: 0s; /* Ensure active and next slides fade smoothly */
+}
+    .card {
+      margin-left: 90px;
+      max-width: 700px;
+      max-height: 600px;
+      background-color: rgb(9, 6, 6);
+      
+      img{
+        border: solid;
+        /* max-height: 200px; */
+        max-width: 200px;
+        object-fit: cover;
+      }
+    }
+
+.headspl{
+    color: antiquewhite;
+}
+.card-text{
+
+    color: aliceblue;
+}
+
+.card-title{
+    color: rgb(191, 135, 61);
+}
