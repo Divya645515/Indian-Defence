@@ -141,6 +141,12 @@ button{
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin-bottom: 3rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  border-radius: 15px;
+  background-color: white;
+}
+button:hover{
+  background-color: black
   
 }

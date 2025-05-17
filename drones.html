@@ -4,92 +4,98 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Drones</title>
-
-  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  
   <link rel="stylesheet" href="drones.css" />
 </head>
 <body>
+  
+    <header class="d-flex justify-content-center py-3 sticky-top bg-white shadow">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="airIndex.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="combat.html" class="nav-link">Combat jets</a></li>
+        <li class="nav-item"><a href="choppers.html" class="nav-link">Choppers</a></li>
+        <li class="nav-item"><a href="drones.html" class="nav-link">Drones</a></li>
+      </ul>
+    </header>
+
   <div class="container py-5">
     <h1 class="text-center mb-4">Drones Information</h1>
 
-    <div class="text-center">
-      <img src="pics/drones2.jpg" alt="loading..." class="img2">
+    <div class="text-center mb-5">
+      <img src="pics/drones2.jpg" alt="Military Drones" class="img-fluid main-drone-img">
     </div>
 
-    <header class="d-flex justify-content-center py-3 sticky-top bg-white shadow">
-    <ul class="nav nav-pills">
-      <li class="nav-item"><a href="airIndex.html" class="nav-link active" aria-current="page">Home</a></li>
-      <li class="nav-item"><a href="combat.html" class="nav-link">Combat jets</a></li>
-      <li class="nav-item"><a href="choppers.html" class="nav-link">Choppers</a></li>
-      <li class="nav-item"><a href="drones.html" class="nav-link">Drones</a></li>
-      
-    </ul>
-  </header>
 
-    <section class="mb-5">
-      <h2>About</h2>
-      <p class="text-justify">
-        In today’s era of modern warfare, technology plays a crucial role in determining the strength and strategy of a nation’s military. One such technology that has transformed the battlefield is the unmanned aerial vehicle (UAV), more commonly known as a drone.
-        The Indian Armed Forces have increasingly adopted drones for surveillance, combat, and intelligence purposes. Let’s explore the list of drones used by Indian Armed Forces, and take a look at the prominent drones in India’s defence arsenal.
+    <section class="mb-5 about-section">
+      <h2 class="section-title">About Military Drones</h2>
+      <p>
+        In today's era of modern warfare, technology plays a crucial role in determining the strength and strategy of a nation's military. One such technology that has transformed the battlefield is the unmanned aerial vehicle (UAV), more commonly known as a drone.
+        The Indian Armed Forces have increasingly adopted drones for surveillance, combat, and intelligence purposes. Let's explore the list of drones used by Indian Armed Forces, and take a look at the prominent drones in India's defence arsenal.
         Drones have become an integral part of modern warfare, providing real-time intelligence, surveillance, and reconnaissance capabilities. The Indian Armed Forces have recognized the significance of drones in enhancing operational efficiency and situational awareness on the battlefield.
       </p>
     </section>
 
-    <section>
-      <h2 class="text-center mb-4">Types of Drones</h2>
-      <div class="row g-4">
-        
-        <div class="col-md-4">
-          <div class="card h-100 p-3 border-0 shadow bg-light">
-            <img src="pics/drones4.png" class="drone-img" alt="Heron">
-            <div class="card-body">
-              <h5 class="card-title">Heron</h5>
-              <p class="card-text">
-                The Rustom-1 is an Indian unmanned aerial vehicle (UAV) developed by the Defence Research and Development Organisation (DRDO). It is designed for surveillance and reconnaissance missions, capable of operating at altitudes of up to 22,000 feet.
-                The Rustom-1 features a wingspan of 20 meters and can carry payloads such as electro-optical sensors and synthetic aperture radar. It has a range of approximately 250 kilometers and can stay airborne for over 12 hours.
-                The UAV is equipped with advanced avionics, including autopilot systems and data link communication, allowing real-time transmission of information to ground control stations.
-              </p>
+    <section class="drone-carousel-section">
+      <h2 class="text-center mb-4 section-title">Types of Drones</h2>
+      
+      <div id="droneCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Heron Drone -->
+          <div class="carousel-item active">
+            <div class="card drone-card mx-auto">
+              <img src="pics/drones4.png" class="card-img-top drone-img" alt="Heron Drone">
+              <div class="card-body">
+                <h5 class="card-title">Heron</h5>
+                <p class="card-text">
+                  The Rustom-1 is an Indian unmanned aerial vehicle (UAV) developed by the Defence Research and Development Organisation (DRDO). It is designed for surveillance and reconnaissance missions, capable of operating at altitudes of up to 22,000 feet.
+                  The Rustom-1 features a wingspan of 20 meters and can carry payloads such as electro-optical sensors and synthetic aperture radar. It has a range of approximately 250 kilometers and can stay airborne for over 12 hours.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Rustom Drone -->
+          <div class="carousel-item">
+            <div class="card drone-card mx-auto">
+              <img src="pics/drones3.jpg" class="card-img-top drone-img" alt="Rustom Drone">
+              <div class="card-body">
+                <h5 class="card-title">Rustom</h5>
+                <p class="card-text">
+                  The Rustom-2, also known as TAPAS (Tactical Aerial Platform for Advanced Surveillance), is an advanced version of the Rustom-1 UAV. It is designed for long-endurance surveillance and reconnaissance missions, with a range of up to 250 kilometers.
+                  The Rustom-2 features a wingspan of 20 meters and can carry various payloads, including electro-optical sensors, synthetic aperture radar, and electronic warfare systems.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Netra Drone -->
+          <div class="carousel-item">
+            <div class="card drone-card mx-auto">
+              <img src="pics/drones2.jpg" class="card-img-top drone-img" alt="Netra Drone">
+              <div class="card-body">
+                <h5 class="card-title">Netra</h5>
+                <p class="card-text">
+                  The Netra is a small, portable UAV developed by the Defence Research and Development Organisation (DRDO) for surveillance and reconnaissance missions.
+                  It is designed for quick deployment and can be operated by a small team. The Netra features a wingspan of 1.5 meters and can carry payloads such as electro-optical sensors and infrared cameras.
+                  It has a range of approximately 10 kilometers and can stay airborne for over 2 hours.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-
         
-        <div class="col-md-4">
-          <div class="card h-100 p-3 border-0 shadow bg-light">
-            <img src="pics/drones3.jpg" class="drone-img" alt="Rustom-2">
-            <div class="card-body">
-              <h5 class="card-title">Rustom</h5>
-              <p class="card-text">
-                The Rustom-2, also known as TAPAS (Tactical Aerial Platform for Advanced Surveillance), is an advanced version of the Rustom-1 UAV. It is designed for long-endurance surveillance and reconnaissance missions, with a range of up to 250 kilometers.
-                The Rustom-2 features a wingspan of 20 meters and can carry various payloads, including electro-optical sensors, synthetic aperture radar, and electronic warfare systems.
-                It is capable of operating at altitudes of up to 30,000 feet and has a flight endurance of over 24 hours. The UAV is equipped with advanced avionics, including autopilot systems and data link communication, allowing real-time transmission of information to ground control stations.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        
-        <div class="col-md-4">
-          <div class="card h-100 p-3 border-0 shadow bg-light">
-            <img src="pics/drones2.jpg" class="drone-img" alt="Netra">
-            <div class="card-body">
-              <h5 class="card-title">Netra</h5>
-              <p class="card-text">
-                The Netra is a small, portable UAV developed by the Defence Research and Development Organisation (DRDO) for surveillance and reconnaissance missions.
-                It is designed for quick deployment and can be operated by a small team. The Netra features a wingspan of 1.5 meters and can carry payloads such as electro-optical sensors and infrared cameras.
-                It has a range of approximately 10 kilometers and can stay airborne for over 2 hours. The UAV is equipped with advanced avionics, including autopilot systems and data link communication, allowing real-time transmission of information to ground control stations.
-              </p>
-            </div>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#droneCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#droneCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
   </div>
 
-  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

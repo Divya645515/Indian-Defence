@@ -1,0 +1,41 @@
+
+body{
+    background-image: url("splPics/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mhead{
+display: flex;
+justify-content: center;
+background-color: rgba(61, 59, 59, 0.5);
+text-transform: uppercase;
+color: rgb(70, 144, 5);
+font-weight: bolder;
+}
+
+.about{
+    color: aliceblue;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+    text-indent: 5%;
+    background-color: rgba(15, 20, 25, 0.5);
+}
+
+.cb-1{
+width: 100%;
+}
+
+.content{
+    text-align: justify;
+    color: rgb(235, 235, 242);
+}
+
+.branch-body:hover {
+  transform: translateX(-10px);
+}
+.high{
+    font-weight: bolder;
+    color: chartreuse;
+    background-color: rgba(122, 119, 119.7);
+}
