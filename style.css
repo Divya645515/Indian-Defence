@@ -7,18 +7,13 @@ background-size: cover;
 
 }
 .nav-link:hover {
-  color: red!important;
-  background-color: white;
-  font-size: 25px;
-  font-weight: 700;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #c71010 !important;
+  background-color: rgb(90, 100, 109);
 }
 
-.nav-item a{
-  color: rgb(9, 255, 0)!important;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: 300;
+.nav-link .nav-item {
+  color: #d73535 !important;
+  font-size: 18px;
 }
 .d-flex{
   background-color:rgb(35, 36, 37);
